@@ -1,0 +1,61 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 5,
+        "width": 5
+    },
+    "display": "Swap List",
+    "events": {
+        "AAL": {
+            "caption": "Item changed",
+            "name": "alterado"
+        }
+    },
+    "fields": {
+        "AAM": {
+            "caption": "Table",
+            "editor": "custom_type",
+            "name": "tabela",
+            "rank": 0
+        },
+        "AAN": {
+            "caption": "Data",
+            "editor": "DynamicValue",
+            "name": "dados",
+            "rank": 1,
+            "value": "custom_data_AEn"
+        },
+        "AAO": {
+            "caption": "List",
+            "editor": "custom_field_AEn",
+            "field_list": true,
+            "field_type_restriction": "text_image_file",
+            "name": "lista",
+            "rank": 2
+        }
+    },
+    "icon": "ion-android-cloud",
+    "property_applications": {
+        "resizable": true
+    },
+    "states": {
+        "AAP": {
+            "caption": "New List",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "lista",
+            "value": "text"
+        },
+        "AAQ": {
+            "caption": "Actual Item",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "item",
+            "value": "custom_data_AEn"
+        }
+    }
+}

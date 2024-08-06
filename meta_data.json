@@ -1,0 +1,12 @@
+{
+    "categories": {
+        "0": "productivity",
+        "1": "technical",
+        "2": "data (things)"
+    },
+    "description": "This plugin will help you to change items on a list without changing their position on the list",
+    "image": "//meta-q.cdn.bubble.io/f1722965089426x737229146227272800/icone_lista.webp",
+    "license": "open_source",
+    "name": "List Tweaker",
+    "plugin_instructions": "Add this plugin to your page to modify items in a list while keeping their positions unchanged. It is particularly effective for lists of text"
+}
